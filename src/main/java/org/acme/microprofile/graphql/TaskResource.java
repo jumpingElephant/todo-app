@@ -26,7 +26,7 @@ public class TaskResource {
     }
 
     @Mutation
-    public Task deleteHero(String id) {
+    public Task deleteTask(String id) {
         return service.deleteTask(id);
     }
 }
